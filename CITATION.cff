@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Interactive Teaching Platform for Power Flow and N-1 Analysis (IEEE 14-bus)"
+version: 1.0.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/itorne/ieee14-teaching-platform"
+keywords:
+  - power flow
+  - contingency analysis
+  - engineering education
+  - pandapower
+  - streamlit
+authors:
+  - family-names: "Luna"
+    given-names: "João Carlos dos Santos"
+    affiliation: "Universidade do Estado do Amazonas (UEA)"
+  - family-names: "Queiroz"
+    given-names: "Isadora de Albuquerque"
+    affiliation: "Universidade do Estado do Amazonas (UEA)"
+  - family-names: "Serique"
+    given-names: "Isaac Nogueira"
+    affiliation: "Universidade do Estado do Amazonas (UEA)"
+  - family-names: "Gondres Torné"
+    given-names: "Israel"
+    affiliation: "Universidade do Estado do Amazonas (UEA)"

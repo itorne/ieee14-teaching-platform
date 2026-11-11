@@ -1,0 +1,14 @@
+{
+  "title": "Interactive Teaching Platform for Power Flow and N-1 Analysis (IEEE 14-bus)",
+  "upload_type": "software",
+  "description": "Open-source platform for teaching steady-state security analysis on the IEEE 14-bus system: 24 hourly scenarios from open data of the Brazilian system operator (ONS), N-1 analysis of every branch, generator reactive-power limits, provisional branch ratings, contingency ranking and a corrective-action laboratory. Built with pandapower and Streamlit. Includes a script that regenerates every table and figure of the accompanying article.",
+  "creators": [
+    {"name": "Luna, João Carlos dos Santos", "affiliation": "Universidade do Estado do Amazonas (UEA)"},
+    {"name": "Queiroz, Isadora de Albuquerque", "affiliation": "Universidade do Estado do Amazonas (UEA)"},
+    {"name": "Serique, Isaac Nogueira", "affiliation": "Universidade do Estado do Amazonas (UEA)"},
+    {"name": "Gondres Torné, Israel", "affiliation": "Universidade do Estado do Amazonas (UEA)"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["power flow", "contingency analysis", "engineering education", "pandapower", "streamlit", "IEEE 14-bus"]
+}

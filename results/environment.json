@@ -1,0 +1,8 @@
+{
+  "python": "3.13.17",
+  "pandapower": "3.5.6",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3",
+  "matplotlib": "3.11.2",
+  "os": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39"
+}
