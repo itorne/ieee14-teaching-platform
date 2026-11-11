@@ -4,6 +4,7 @@ title: "Interactive Teaching Platform for Power Flow and N-1 Analysis (IEEE 14-b
 version: 1.0.0
 date-released: 2026-11-11
 license: MIT
+doi: 10.5281/zenodo.24147556
 repository-code: "https://github.com/itorne/ieee14-teaching-platform"
 keywords:
   - power flow

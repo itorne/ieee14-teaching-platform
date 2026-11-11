@@ -1,5 +1,7 @@
 # Interactive Teaching Platform for Power Flow and N-1 Analysis (IEEE 14-bus)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24147556.svg)](https://doi.org/10.5281/zenodo.24147556)
+
 Open-source platform for teaching steady-state security analysis on the IEEE 14-bus system:
 24 hourly scenarios built from open data of the Brazilian system operator (ONS), N-1 analysis of
 every branch, and modelling choices that the student can change (generator reactive limits,
@@ -65,5 +67,5 @@ ONS, *Curva de Carga Horária*, open data, license CC-BY: https://dados.ons.org.
 
 ## License and citation
 
-MIT License (see `LICENSE`). Citation metadata are in `CITATION.cff`; the archived version has a DOI on Zenodo
-(badge to be added after the first release). Please also cite the accompanying article (reference to be added after publication).
+MIT License (see `LICENSE`). Citation metadata are in `CITATION.cff`; the archived version is on Zenodo,
+DOI [10.5281/zenodo.24147556](https://doi.org/10.5281/zenodo.24147556). Please also cite the accompanying article (reference to be added after publication).
