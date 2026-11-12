@@ -3,7 +3,8 @@ REM Inicia a plataforma. Na primeira vez cria o ambiente e instala as dependenci
 cd /d "%~dp0"
 if exist venv\Scripts\python.exe goto run
 echo Primeira execucao: instalando a plataforma. Isso leva alguns minutos e precisa de internet.
-py -3.13 -m venv venv 2>nul
+py -3.14 -m venv venv 2>nul
+if not exist venv\Scripts\python.exe py -3.13 -m venv venv 2>nul
 if not exist venv\Scripts\python.exe python -m venv venv
 if not exist venv\Scripts\python.exe goto nopython
 venv\Scripts\python.exe -m pip install --upgrade pip
@@ -17,7 +18,7 @@ venv\Scripts\python.exe -m streamlit run app.py
 pause
 exit /b 0
 :nopython
-echo Python nao encontrado. Instale o Python 3.13 em https://www.python.org marcando a opcao Add python.exe to PATH.
+echo Python nao encontrado. Instale o Python 3.14 em https://www.python.org marcando a opcao Add python.exe to PATH.
 pause
 exit /b 1
 :failinstall

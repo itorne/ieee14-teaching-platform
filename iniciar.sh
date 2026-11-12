@@ -4,8 +4,8 @@ set -e
 cd "$(dirname "$0")"
 if [ ! -x venv/bin/python ]; then
   echo "Primeira execucao: instalando a plataforma (alguns minutos, precisa de internet)."
-  PY=$(command -v python3.13 || command -v python3 || true)
-  if [ -z "$PY" ]; then echo "Python nao encontrado. Instale o Python 3.13."; exit 1; fi
+  PY=$(command -v python3.14 || command -v python3.13 || command -v python3 || true)
+  if [ -z "$PY" ]; then echo "Python nao encontrado. Instale o Python 3.14."; exit 1; fi
   "$PY" -m venv venv
   venv/bin/python -m pip install --upgrade pip
   if ! venv/bin/python -m pip install -r requirements.txt; then

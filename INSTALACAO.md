@@ -4,12 +4,12 @@ Repositório: **https://github.com/itorne/ieee14-teaching-platform**
 
 Tempo: cerca de 15 minutos na primeira vez. É preciso internet só na instalação.
 
-## 1. Instalar o Python 3.13 (uma única vez)
+## 1. Instalar o Python 3.14 (uma única vez)
 
-1. Acesse https://www.python.org/downloads/ e baixe o **Python 3.13** para o seu sistema.
+1. Acesse https://www.python.org/downloads/ e clique em **Download** na linha **3.14** e baixe o **Windows installer (64-bit)**. Não use a 3.15 (ainda sem todos os pacotes) nem a 3.13 (o site não oferece mais instalador para Windows).
 2. **Windows:** na primeira tela do instalador, marque **"Add python.exe to PATH"** e clique em **"Install Now"**.
 3. **macOS:** execute o instalador `.pkg` normalmente.
-4. **Linux:** instale pelo gerenciador de pacotes (por exemplo, `sudo apt install python3.13 python3.13-venv`).
+4. **Linux:** instale pelo gerenciador de pacotes (por exemplo, `sudo apt install python3.14 python3.14-venv`).
 
 ## 2. Baixar a plataforma
 
@@ -42,7 +42,7 @@ da rede e o botão **"▶ Next hour"**. Traga o computador carregado no dia da a
 
 | Problema | Solução |
 |---|---|
-| "Python não encontrado" | Reinstale o Python 3.13 marcando "Add python.exe to PATH". |
+| "Python não encontrado" | Reinstale o Python 3.14 marcando "Add python.exe to PATH". |
 | "Falha na instalação" | Verifique a internet e execute `iniciar.bat` de novo. |
 | O navegador não abriu | Digite http://localhost:8501 no navegador. |
 | "Port 8501 is already in use" | A plataforma já está aberta em outra janela; use-a ou feche-a. |
